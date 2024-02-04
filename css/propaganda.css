@@ -1,0 +1,13 @@
+main {
+    font-size: large;
+    align-items: center;
+}
+
+main > * {
+    margin: 0;
+    margin-top: 10px;
+}
+
+main img {
+    width: 60%;
+}

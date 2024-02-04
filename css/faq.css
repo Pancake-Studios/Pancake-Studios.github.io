@@ -1,0 +1,4 @@
+.h2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/paysage.jpg);
+    background-size: cover;
+}

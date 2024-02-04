@@ -1,0 +1,24 @@
+.h2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/paysage.jpg);
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    gap: 30px;
+}
+
+section > div > div {
+    display: flex;
+    gap: 10px;
+    height: 48px;
+}
+
+section h3 {
+    margin: auto;
+    margin-left: 0;
+}
+
+main {
+    gap: 30px;
+}

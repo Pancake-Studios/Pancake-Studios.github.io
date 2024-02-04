@@ -1,0 +1,28 @@
+.h2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/paysage.jpg);
+    background-size: cover;
+}
+
+article {
+    display: flex;
+}
+
+article > * {
+    border: 4px solid gray;
+    padding: 20px;
+}
+
+.meta {
+    width: 200px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.meta > * {
+    margin-bottom: 10px;
+}
+
+.content {
+    border-left: 0;
+    padding-top: 0;
+}
