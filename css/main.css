@@ -10,10 +10,11 @@ header {
     position: sticky;
     top: 0;
     background-color: lightgray;
+    flex-wrap: wrap;
 }
 
 header div {
-    width: 550px;
+    width: 375px;
     display: flex;
     align-items: center;
 }
@@ -26,9 +27,28 @@ header div > * {
 
 nav {
     display: flex;
-    gap: 10px;
     flex-shrink: 0;
     flex-wrap: wrap;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+nav > * {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+a {
+    text-underline-offset: 3px;
+    color: #4086db;
+}
+
+a:hover, a:visited:hover {
+    color: #8840db;
+}
+
+a:visited {
+    color: #6257e3;
 }
 
 header a, .button {
@@ -38,12 +58,11 @@ header a, .button {
     padding: 7px;
     padding-top: 4px;
     padding-bottom: 4px;
-    transition: 0.15s;
     border-radius: 4px;
 }
 
 header a:hover, .button:hover {
-    background-color: rgb(192, 212, 242);
+    background-color: #e7c0f2;
 }
 
 .selected {

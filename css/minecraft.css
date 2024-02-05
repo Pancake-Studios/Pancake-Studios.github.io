@@ -8,6 +8,10 @@ section {
     gap: 30px;
 }
 
+.stretch {
+    flex-grow: 1;
+}
+
 section > div > div {
     display: flex;
     gap: 10px;
