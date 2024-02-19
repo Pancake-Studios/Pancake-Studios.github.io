@@ -25,6 +25,10 @@ header div > * {
     flex-shrink: 0;
 }
 
+header img {
+    height: 65px;
+}
+
 nav {
     display: flex;
     flex-shrink: 0;
@@ -39,20 +43,19 @@ nav > * {
 }
 
 a {
-    text-underline-offset: 3px;
+    text-decoration: none;
     color: #4086db;
 }
 
 a:hover, a:visited:hover {
-    color: #8840db;
+    color: #003e89;
 }
 
 a:visited {
-    color: #6257e3;
+    color: #8840db;
 }
 
 header a, .button {
-    text-decoration: none;
     color: #6257e3;
     border: 2px solid;
     padding: 7px;
